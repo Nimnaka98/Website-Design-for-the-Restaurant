@@ -1,0 +1,88 @@
+body{
+    background-color: #e4e68b;
+
+}
+
+.tagline{
+    color: rgb(7, 8, 0);
+    font-style: italic;
+}
+
+
+.title{
+    color: red;
+    font-style: bold;
+    float: center;
+    
+}
+
+img{
+    float: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.pricetopic{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 150px;
+}
+
+table{
+    border: 3px solid black;
+    width: 100%;
+}
+
+td, th{
+    text-align: left;
+    padding: 16px;
+}
+
+footer{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    padding: 5px;
+    background-color: rgb(255, 195, 105);
+    color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+button{
+    padding: 5px;
+    align-tracks: 10px;
+}
+ 
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: square;
+  animation-duration: 4s;
+}
+
+@keyframes square {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+.tagline {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 300px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
